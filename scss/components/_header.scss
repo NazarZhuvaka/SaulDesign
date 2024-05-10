@@ -1,3 +1,27 @@
-body {
-    background: red;
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+    }
+
+    &__nav {
+    }
+}
+.nav {
+
+    &__ul {
+        display: flex;
+        gap: 50px;
+    }
+}
+.ul {
+
+    &__li {
+    }
+
+    &__link {
+    }
 }

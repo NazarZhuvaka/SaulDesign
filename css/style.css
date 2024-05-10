@@ -231,6 +231,14 @@ section {
   }
 }
 
+.active {
+  display: block;
+}
+
+.hiden {
+  display: none;
+}
+
 *::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -242,6 +250,12 @@ section {
   background-color: #d1d1d1;
 }
 
-body {
-  background: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__ul {
+  display: flex;
+  gap: 50px;
 }/*# sourceMappingURL=style.css.map */

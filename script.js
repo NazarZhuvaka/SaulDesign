@@ -1,0 +1,10 @@
+// headerLink.classList.toggle('hiden')  -- тут задається подія 
+
+
+const headerLink = document.querySelector('.header__nav')
+const headerBtn = document.querySelector('.header__btn')
+
+
+headerBtn.addEventListener('click' , function () {
+    headerLink.classList.toggle('hiden')
+})
