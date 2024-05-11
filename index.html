@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
 
     <title>SaulDesign</title>
@@ -12,13 +23,13 @@
 
     <div class="container">
         
-    <div class="header">
+    <header class="header">
         <a class="header__logo" href="#!">
             SaulDesign
         </a>
 
-        <nav class="header__nav hiden">
-            <ul class="nav__ul">
+        <nav class="header__nav ">
+            <ul class="nav__ul header__ul">
                 <li class="ul__li ">
                     <a class="ul__link" href="#!">Home</a>
                 </li>
@@ -30,16 +41,33 @@
                 </li>
             </ul>
 
+            <span class="header__backdrop"></span>
+			<span class="material-icons icon-menu">menu</span>
+
         </nav>
 
 
-        <button class="btn header__btn">Click</button>
+    </header>
+
+    <div class="welcome">
+
+        <div class="welcome__info">
+            <img class="welcome__info-arrow" src="./img/arrow.svg" alt="arrow">
+            <h1 class="welcome__info-title"> CREATIVE UI <span> DESIGNER </span> </h1>
+            <button class="btn welcome__btn-hire">Hire me</button> 
+            <button class="btn welcome__btn-CV">
+                Download CV
+                <img src="./img/download.svg" alt="download"> 
+            </button> 
+            
+        </div>
+
+        <div class="welcome-img">
+            <img height="655px" src="./img/welcome-img.png" alt="welcome-img">
+        </div>
     </div>
     
     </div>
-
-
-    <h1>Hello , I`m Nazar</h1>
 
 
     <script src="./script.js"></script>

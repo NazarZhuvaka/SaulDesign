@@ -1,6 +1,6 @@
 body {
 	font-family: var(--ff);
-	background: var(--c-dark1);
+	background: var(--c-body);
 	color: var(--c-white);
 }
 
@@ -39,7 +39,7 @@ section {
 	outline: 0;
 	border: 0;
 	border-radius: 5px;
-	padding: 13px 18px;
+	padding: 10px 32px;
 	transition: var(--transition);
 
 	&_primary {
@@ -70,7 +70,6 @@ section {
 .desc {
 	color: var(--c-body);
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 160%;
 	max-width: 460px;
 	margin-bottom: 40px;
@@ -79,10 +78,3 @@ section {
 	}
 }
 
-.active{
-	display: block;
-}
-
-.hiden{
-	display: none;
-}

@@ -8,21 +8,19 @@ $mobile-small: 380px;
 $c-primary: #ED9902;
 
 :root {
-	--ff: 'Rubik', sans-serif;
+	--ff: "Poppins", sans-serif;
 	--transition: .2s all ease-in-out;
 
-	--c-primary: #ED9902;
+	--c-primary: #00ADB5;
 	--c-white: #fff;
-	--c-dark1: #21201E;
-	--c-dark2: #2D2B29;
-	--c-body: #9B968B;
+	--c-body: #222831;
 
 
-	--font-h2-reg: 500 20px/45px var(--ff);
+	// --font-h2-reg: 500 20px/45px var(--ff);
 }
 
-@media screen {
-	:root {
-		--font-h2-reg: 500 16px/45px var(--ff);
-	}
-}
+// @media screen {
+// 	:root {
+// 		--font-h2-reg: 500 16px/45px var(--ff);
+// 	}
+// }

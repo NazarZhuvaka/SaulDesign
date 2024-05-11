@@ -1,0 +1,67 @@
+.welcome {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 178px 0 164px 84px;
+
+    &__info {
+        position: relative;
+    }
+
+    &__info-arrow {
+        position: absolute;
+        left: -100px;
+        top: 15%;
+    }
+
+    &__info-title {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+
+        padding-bottom: 48px;
+        margin-top: 40px;
+        max-width: 624px;
+        span {
+            color: var(--c-primary);
+        }
+    }
+
+    &__btn-hire {
+        border-radius: 24px;
+        background: var(--c-primary);
+
+        color: rgb(238, 238, 238);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+
+        margin-right: 24px;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    &__btn-CV {
+        display: inline-flex;
+        gap: 10px;
+        align-items: center;
+        
+        border-radius: 24px;
+
+        backdrop-filter: blur(4px);
+        background: rgba(57, 62, 70, 0.75);
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+
+        color: rgb(238, 238, 238);
+
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+    }
+}
+.btn {
+}
+.welcome-img {
+}
