@@ -1,8 +1,28 @@
 .welcome {
-    display: flex;
-    justify-content: space-between;
+    // position: relative;
+    &__line{
+        width: 1px;
+        height: 1024px;
+        display: block;
+        position: absolute;
 
-    padding: 178px 0 164px 84px;
+        background: rgba(238, 238, 238, 0.1);
+
+        top: -50%;
+
+        left: 53.3%;
+
+        z-index: -1;
+
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+
+        padding: 178px 0 164px 84px;
+    }
+
 
     &__info {
         position: relative;

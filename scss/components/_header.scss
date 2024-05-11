@@ -1,9 +1,23 @@
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 48px 0px;
-	// border-bottom: 1px solid white;
+	position: relative;
+	
+	&__line{
+		position: absolute;
+		display: block;
+		height: 1px;
+		width: 100%;
+		background: rgba(238, 238, 238, 0.1);
+	}
+
+	&__container{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 48px 0px;
+	}
+
+
+	
 
 	&__backdrop {
 		display: none;

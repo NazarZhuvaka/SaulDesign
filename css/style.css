@@ -234,6 +234,16 @@ section {
 }
 
 .header {
+  position: relative;
+}
+.header__line {
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: rgba(238, 238, 238, 0.1);
+}
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -322,7 +332,17 @@ section {
   }
 }
 
-.welcome {
+.welcome__line {
+  width: 1px;
+  height: 1024px;
+  display: block;
+  position: absolute;
+  background: rgba(238, 238, 238, 0.1);
+  top: -50%;
+  left: 53.3%;
+  z-index: -1;
+}
+.welcome__container {
   display: flex;
   justify-content: space-between;
   padding: 178px 0 164px 84px;

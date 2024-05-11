@@ -21,53 +21,68 @@
 </head>
 <body>
 
-    <div class="container">
+    
+    <!-- <div class="container"> -->
         
     <header class="header">
-        <a class="header__logo" href="#!">
-            SaulDesign
-        </a>
+        <div class="container header__container">
+            <a class="header__logo" href="#!">
+                SaulDesign
+            </a>
+    
+            <nav class="header__nav ">
+                <ul class="nav__ul header__ul">
+                    <li class="ul__li ">
+                        <a class="ul__link" href="#!">Home</a>
+                    </li>
+                    <li class="ul__li " >
+                        <a class="ul__link" href="#!">About Me</a>
+                    </li>
+                    <li class="ul__li ">
+                        <a class="ul__link" href="#!">Contact</a>
+                    </li>
+                </ul>
+    
+                <span class="header__backdrop"></span>
+                <span class="material-icons icon-menu">menu</span>
+    
+            </nav>
+        </div>
 
-        <nav class="header__nav ">
-            <ul class="nav__ul header__ul">
-                <li class="ul__li ">
-                    <a class="ul__link" href="#!">Home</a>
-                </li>
-                <li class="ul__li " >
-                    <a class="ul__link" href="#!">About Me</a>
-                </li>
-                <li class="ul__li ">
-                    <a class="ul__link" href="#!">Contact</a>
-                </li>
-            </ul>
-
-            <span class="header__backdrop"></span>
-			<span class="material-icons icon-menu">menu</span>
-
-        </nav>
-
+        <span class="header__line"></span>
 
     </header>
 
     <div class="welcome">
 
-        <div class="welcome__info">
-            <img class="welcome__info-arrow" src="./img/arrow.svg" alt="arrow">
-            <h1 class="welcome__info-title"> CREATIVE UI <span> DESIGNER </span> </h1>
-            <button class="btn welcome__btn-hire">Hire me</button> 
-            <button class="btn welcome__btn-CV">
-                Download CV
-                <img src="./img/download.svg" alt="download"> 
-            </button> 
-            
+        <div class="container welcome__container">
+            <div class="welcome__info">
+                <img class="welcome__info-arrow" src="./img/arrow.svg" alt="arrow">
+                <h1 class="welcome__info-title"> CREATIVE UI <span> DESIGNER </span> </h1>
+
+
+                <span class="welcome__line"></span>
+
+
+                <button class="btn welcome__btn-hire">Hire me</button> 
+                <button class="btn welcome__btn-CV">
+                    Download CV
+                    <img src="./img/download.svg" alt="download"> 
+                </button> 
+                
+            </div>
+    
+            <div class="welcome-img">
+                <img height="655px" src="./img/welcome-img.png" alt="welcome-img">
+            </div>
         </div>
 
-        <div class="welcome-img">
-            <img height="655px" src="./img/welcome-img.png" alt="welcome-img">
-        </div>
+        
+
+
     </div>
     
-    </div>
+    <!-- </div> -->
 
 
     <script src="./script.js"></script>
