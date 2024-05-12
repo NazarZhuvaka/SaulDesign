@@ -223,7 +223,7 @@ section {
 }
 
 .none {
-  display: none;
+  display: none !important;
 }
 
 *::-webkit-scrollbar {
@@ -405,7 +405,7 @@ section {
 }
 .works__card {
   display: flex;
-  justify-content: space-between;
+  gap: 48px;
 }
 
 .tab-controls {
