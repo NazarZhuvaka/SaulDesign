@@ -53,7 +53,7 @@
 
     </header>
 
-    <div class="welcome">
+    <section class="welcome">
 
         <div class="container welcome__container">
             <div class="welcome__info">
@@ -80,7 +80,77 @@
         
 
 
-    </div>
+    </section>
+
+    <section class="works">
+        <div class="container works__container">
+            <h2 class="works__title">
+                My recent <span>works</span>
+            </h2>
+
+            <!--  -->
+
+            <div class="works__tabs">
+                <div class="tab-controls">
+                  <button
+                    data-tab="all"
+                    class="btn tab-controls__btn tab-controls__btn--active"
+                  >
+                    All
+                  </button>
+                  <button data-tab="UI" class="btn tab-controls__btn">UI</button>
+                  <button data-tab="UX" class="btn tab-controls__btn">UX</button>
+                  <button data-tab="Design" class="btn tab-controls__btn">Web Design</button>
+                </div>
+              </div>
+
+
+              <div class="works__card">
+                <article data-tab-value="UI" class="card ">
+                    <a href="#product-page" class="card__link"></a>
+  
+                    <div class="card__photo">
+                      <img
+                        class="card__img"
+                        src="./img/card-photo-1.svg"
+                        srcset="./img/products/chair-01@2x.png 2x"
+                        alt="Chair"
+                      />
+                    </div>
+                  </article>
+                <article data-tab-value="UI" class="card ">
+                    <a href="#product-page" class="card__link"></a>
+  
+                    <div class="card__photo">
+                      <img
+                        class="card__img"
+                        src="./img/card-photo-3.svg"
+                        srcset="./img/products/chair-01@2x.png 2x"
+                        alt="Chair"
+                      />
+                    </div>
+                  </article>
+
+                <article data-tab-value="UX" class="card ">
+                    <a href="#product-page" class="card__link"></a>
+  
+                    <div class="card__photo">
+                      <img
+                        class="card__img"
+                        src="./img/phones.svg"
+                        srcset="./img/products/chair-01@2x.png 2x"
+                        alt="Chair"
+                      />
+
+                    </div>
+                  </article>
+              </div>
+
+            <!--  -->
+        </div>
+    </section>
+
+
     
     <!-- </div> -->
 
