@@ -1,5 +1,5 @@
 .about {
-
+    position: relative;
     padding: 230px 0 215px;
 
     &__container {
@@ -29,6 +29,7 @@
         color: var(--c-white);
 		font-size: 18px;
 		font-weight: 400;
+        line-height: 30px;
 		transition: var(--transition);
 
         max-width: 389px;
@@ -36,6 +37,22 @@
         a{
             font-weight: 700;
         }
+    }
+
+    &__line{
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 1px;
+        background: rgba(238, 238, 238, 0.1);
+
+        // top: 53.8%;
+
+        top: 0;
+
+        left: 35.45%;
+
+        z-index: -1;
     }
 
     &__img {

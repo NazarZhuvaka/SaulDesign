@@ -1,0 +1,47 @@
+.project {
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+    }
+
+    &__img-title {
+        margin-top: 28px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 79px;
+        max-width: 510px;
+        span {
+            color: var(--c-primary);
+        }
+    }
+
+    &__form {
+    }
+
+    &__name {
+    }
+
+    &__name-title {
+    }
+
+    &__email {
+    }
+
+    &__email-title {
+    }
+
+    &__title {
+    }
+
+    &__textarea {
+    }
+}
+.form {
+
+    &__container {
+    }
+}
