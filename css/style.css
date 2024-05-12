@@ -17,7 +17,7 @@ main {
   display: block;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6, p {
   font-size: 2em;
   margin: 0;
 }
@@ -348,7 +348,7 @@ section {
 .welcome__container {
   display: flex;
   justify-content: space-between;
-  padding: 178px 0 164px 84px;
+  padding: 178px 0 41px 84px;
 }
 .welcome__info {
   position: relative;
@@ -441,4 +441,31 @@ section {
           backdrop-filter: blur(4px);
   background: rgba(57, 62, 70, 0.5);
   padding: 61px 51px;
+}
+.about {
+  padding: 230px 0 215px;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+}
+.about__info-title {
+  margin-top: 28px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+}
+.about__info-title span {
+  color: var(--c-primary);
+}
+.about__info-text {
+  color: var(--c-white);
+  font-size: 18px;
+  font-weight: 400;
+  transition: var(--transition);
+  max-width: 389px;
+}
+.about__info-text a {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

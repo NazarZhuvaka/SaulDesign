@@ -1,0 +1,45 @@
+.about {
+
+    padding: 230px 0 215px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        gap: 65px;
+
+    }
+
+    &__info {
+
+    }
+
+    &__info-title {
+        margin-top: 28px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 96px;
+
+        span {
+            color: var(--c-primary);
+        }
+    }
+
+    &__info-text {
+        color: var(--c-white);
+		font-size: 18px;
+		font-weight: 400;
+		transition: var(--transition);
+
+        max-width: 389px;
+
+        a{
+            font-weight: 700;
+        }
+    }
+
+    &__img {
+    }
+}
+.container {
+}
