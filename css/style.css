@@ -491,9 +491,15 @@ section {
   left: 35.45%;
   z-index: -1;
 }
+.project {
+  padding: 258px 0;
+}
 .project__container {
   display: flex;
   justify-content: space-between;
+}
+.project__img img {
+  margin-left: 221px;
 }
 .project__img-title {
   margin-top: 28px;

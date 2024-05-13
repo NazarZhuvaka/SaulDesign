@@ -1,11 +1,17 @@
 .project {
 
+    padding: 258px 0;
+
     &__container {
         display: flex;
         justify-content: space-between;
     }
 
     &__img {
+
+        img {
+            margin-left: 221px;
+        }
     }
 
     &__img-title {
@@ -20,6 +26,10 @@
     }
 
     &__form {
+    }
+
+    &__btn{
+        
     }
 
     &__name {
