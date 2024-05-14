@@ -1,57 +1,97 @@
 .project {
+  padding: 258px 0;
 
-    padding: 258px 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    &__container {
-        display: flex;
-        justify-content: space-between;
+  &__img {
+    img {
+      margin-left: 221px;
     }
+  }
 
-    &__img {
-
-        img {
-            margin-left: 221px;
-        }
+  &__img-title {
+    margin-top: 28px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 79px;
+    max-width: 510px;
+    span {
+      color: var(--c-primary);
     }
+  }
 
-    &__img-title {
-        margin-top: 28px;
-        font-size: 64px;
-        font-weight: 700;
-        line-height: 79px;
-        max-width: 510px;
-        span {
-            color: var(--c-primary);
-        }
-    }
+  &__form {
+  }
 
-    &__form {
-    }
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
-    &__btn{
-        
-    }
+    border-radius: 24px;
+    background: var(--c-primary);
 
-    &__name {
-    }
+    color: white;
+  }
 
-    &__name-title {
-    }
+  &__name {
+  }
 
-    &__email {
-    }
+  &__name-title {
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
 
-    &__email-title {
-    }
+  &__email {
+  }
 
-    &__title {
-    }
+  &__email-title {
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
 
-    &__textarea {
-    }
+  &__title {
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+
+  &__textarea {
+    max-width: 600px;
+    width: 100%;
+    max-height: 280px;
+    height: 100%;
+    border-radius: 16px;
+    padding: 16px 0 16px 24px;
+    border: none;
+    background: rgba(57, 62, 70, 0.5);
+
+    margin-bottom: 24px;
+  }
 }
 .form {
+  &__container {
+    display: flex;
+    gap: 24px;
 
-    &__container {
+    padding-bottom: 24px;
+
+    input {
+      border-radius: 16px;
+      padding: 16px 0 16px 24px;
+      border: none;
+      background: rgba(57, 62, 70, 0.5);
     }
+  }
 }
